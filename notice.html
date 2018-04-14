@@ -5,18 +5,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/uikit.min.css" />
 	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/all.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script src=js/jquery-3.2.1.min.js></script>
 	<script src="js/jquery.flexslider.js"> </script>
-	<script src="js/uikit.min.js"></script>
-	<script src="js/uikit-icons.min.js"></script>
 	<script src=js/all.js></script>
 	<title>Document</title>
 
-	<!-- <script type='text/javascript' src="jquery-1.9.1.min.js"></script> -->
+	<script type='text/javascript' src="jquery-1.9.1.min.js"></script>
 	
 </head>
 
@@ -100,7 +99,7 @@
 					<ul>
 						<li>
 							<input type="search" placeholder="  輸 入 關 鍵 字">
-							<a href="">
+							<a href="#">
 								<i class="fas fa-search" aria-hidden="true"></i>
 							</a>
 						</li>
@@ -110,7 +109,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="#">
 								<i class="fas fa-shopping-cart"></i>
 							</a>
 						</li>
@@ -157,101 +156,73 @@
 			</header>
 			<content>
 				<div class="content-wrap">
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-								<div class="bg-cover">
-									<img src="https://images.unsplash.com/photo-1490724500206-cd5482e02b9e?ixlib=rb-0.3.5&s=f821990a0f9364b5d2f18e7d6db1ed8d&auto=format&fit=crop&w=1050&q=80"
-									 alt="">
-								</div>
-							</li>
-							<li>
-								<div class="bg-cover">
-									<img src="https://images.unsplash.com/photo-1485277709367-82e999329c80?ixlib=rb-0.3.5&s=069ada583562c9fd47069f46f55462c4&auto=format&fit=crop&w=1052&q=80"
-									 alt="">
-								</div>
-
-							</li>
-							<li>
-								<div class="bg-cover">
-									<img src="https://images.unsplash.com/photo-1504963387610-bd7e38556ef3?ixlib=rb-0.3.5&s=c4d1c86e0a98a1f394a0d3ecf448e832&auto=format&fit=crop&w=1950&q=80"
-									 alt="">
-								</div>
-
-							</li>
-						</ul>
-					</div>
+					
 					<div class="clearfix"></div>
-					<div class="middle">
-						<div class="mid-big">
-							<div class="grid-box">
-								<div class="inner">
-									<span class="onsale">特賣</span>
-									<div class="image bg-cover m-img">
-										<a href="product-list.html">
-											<img src="https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68ab0db4ee79bdce92722b31112b&auto=format&fit=crop&w=925&q=80"
-											 alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="div">
-							<div class="mid-small-1">
-								<div class="grid-box">
-									<div class="inner">
-										<div class="image bg-cover">
-											<a href="product-list.html">
-												<img src="https://images.unsplash.com/photo-1508737690671-77fe4101791e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47748f2cb91025d6e0fccad9df8e47b9&auto=format&fit=crop&w=1953&q=80"
-												 alt="">
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="mid-small-2">
-								<div class="grid-box">
-									<div class="inner">
-										<div class="image bg-cover">
-											<a href="product-img.html">
-												<img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-0.3.5&s=48525f12a9d902b0d77fed81933e5728&auto=format&fit=crop&w=1050&q=80"
-												 alt="">
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 
-						<div class="clearfix"></div>
-						<div class="div">
-							<div class="mid-small-1">
-								<div class="grid-box">
-									<div class="inner">
-										<div class="image bg-cover">
-											<a href="product-img.html">
-												<img src="https://images.unsplash.com/photo-1426869884541-df7117556757?ixlib=rb-0.3.5&s=ba832e05d1024545c66a509e8ec530b3&auto=format&fit=crop&w=1050&q=80"
-												 alt="">
-											</a>
-										</div>
-									</div>
-								</div>
+					<div class="breadcrumb">
+						<ol>
+							<li class="breadcrumb-item">
+								<a href="index.html">首頁</a> 
+							</li>
+							 >
+							<li class="breadcrumb-item">
+								<a href="notice.html">購買說明</a>
+							</li>
+						</ol>
+					</div>
+
+
+					<div class="middle">	
+						<div class="notice-page-con">
+							<div class="sidebar">
+								<ul>
+									<li><a href="#item-1">│ 購物須知</a></li>
+									<li><a href="#item-2">│ 常見問答</a></li>
+									<li><a href="#item-3">│ 付款配送</a></li>
+									<li><a href="#item-4">│ 售後服務</a></li>
+								</ul>
 							</div>
-							<div class="mid-small-2">
-								<div class="grid-box">
-									<div class="inner">
-										<span class="onsale">特賣</span>
-										<div class="image bg-cover">
-											<a href="product-list.html">
-												<img src="https://images.unsplash.com/photo-1422255198496-21531f12a6e8?ixlib=rb-0.3.5&s=351d481247b64b0a8a8e1e9a648eb521&auto=format&fit=crop&w=1053&q=80"
-												 alt="">
-											</a>
-										</div>
-									</div>
-								</div>
+							<div class="content">
+								<h2 id="item-1">購物說明</h2>
+								 <article>
+									 <h3>│購物須知</h3>
+									 <ol>
+										 <li>收到訂單後系統會立即發送確認信件至E-mail，商品追加時間依商品類型而有不同</li>
+										 <li>若商品有斷貨或其他問題，賣場會依您填寫的E-mail發送通知</li>
+										 <li id="item-2">超取訂單到貨會發送簡訊，因為APP及電信公司設定，可能會將簡訊誤過濾為垃圾訊息 為避免沒有收到簡訊而超過取貨時間，我們建議您將此功能移除或關閉</li>
+									 </ol>
+								 </article >
+								<article>
+									<h3 >│常見問答</h3>
+									<ol>
+										<li><h5>如何加入會員？</h5><p>點選網站右上方的會員登入，可用Email註冊</p></li>
+										<li><h5>如何查詢訂單？</h5><p>點選網站右上方的會員圖案，可進入頁面查詢訂單狀態</p></li>
+										<li><h5>商品追加時間</h5><p>上衣、洋裝、外套、裙、褲、手錶、飾品等追加約7-15個工作天 鞋款約7-21個工作天；包包約7-40個工作天</p></li>
+										<li id="item-3"><h5>什麼是工作天</h5><p>工作天為一般正常上班時間，不含六日及國定假日;如遇到韓國休市及特殊節日，同樣不為工作天</p></li>
+									</ol>
+								</article>
+								<article>
+									<h3>│ 付款配送</h3>
+									<ol>
+										<li>付款方式：可選擇用線上刷卡、貨到付款、ATM轉帳三種方式付款</li>
+										<li>配送方式：統一由宅配送達您指定的收件地址</li>
+										<li id="item-4">完成訂單後，預計二至三個工作天出貨配送(不含假日)</li>
+									</ol>
+								</article>
+								<article>
+									<h3>│ 售後服務</h3>
+									<h4>退換貨：</h4>
+									<ol>
+										<li>依照消費者保護法規定，購物享有商品到貨七天猶豫期之權益。</li>
+										<li>辦理退貨時請先至【訂單查詢】點選退貨申請，填妥相關資料，並將原商品備妥，本公司接獲申請之次日起1個工作天內核對您退貨要求後，將委託指定之宅配公司，在3個工作天內透過電話與您連絡前往取回退貨商品。</li>
+										<li>退回商品必須是全新且包裝完整狀態，否則恕不接受退訂。</li>
+										<li>若屬瑕疵之商品，本公司將無條件接受退貨及退款。</li>
+										<li>宅配公司僅負責收件，取件後會提供簽收單據給您，請注意留存。</li>
+									</ol>
+								</article>
+							
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</content>
@@ -313,20 +284,23 @@
 				
 					</div>
 				</div>
+				
+
+
 			</footer>
 
-			
+
 
 			</div>
 
 
 
 
-			<div class="top">
-				<a href="#">
-					<i class="fa fa-chevron-circle-up fa-2x"></i>
-				</a>
-			</div>
+		<div class="top">
+			<a href="#">
+				<i class="fa fa-chevron-circle-up fa-2x"></i>
+			</a>
+		</div>
 
 
 
@@ -334,11 +308,24 @@
 
 
 
-
-
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="css/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).on('ready', function () {
+		
+		$(".regular").slick({
+			dots: true,
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 3
+		});
+		
+	});
+</script>
 
 
 
 
 </body>
+
 </html>
