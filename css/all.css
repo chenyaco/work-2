@@ -633,7 +633,7 @@ a {
       overflow: hidden; }
       .content-wrap .middle .product-list-con .sidebar {
         display: block;
-        width: 120px;
+        width: 150px;
         float: left; }
         .content-wrap .middle .product-list-con .sidebar ul li {
           width: 120px;
@@ -644,7 +644,9 @@ a {
             padding-bottom: 7px;
             color: #383d41;
             font-size: 20px;
-            font-weight: bold; }
+            font-weight: bold;
+            width: 140px;
+            display: block; }
           .content-wrap .middle .product-list-con .sidebar ul li div {
             margin: 1em 0; }
             .content-wrap .middle .product-list-con .sidebar ul li div a {
