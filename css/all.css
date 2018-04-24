@@ -219,7 +219,7 @@ a {
 @media (max-width: 960px) {
   .mobile-link {
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 1rem;
     /* padding-top: 1.5rem; */ } }
 
 .main {
