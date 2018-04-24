@@ -168,7 +168,7 @@ a{
 .wrap{
 	position: relative;
 	overflow: hidden;
-  max-width: 1200px;
+  width: 100%;
 	margin: 0 auto;
 	
 	.top{
@@ -325,8 +325,8 @@ a{
   height: 100%;
   background: #e9e9e94f;
   overflow: hidden;
-  -webkit-transform: translateX(-270px);
-  transform: translateX(-270px);
+  -webkit-transform: translateX(-570px);
+  transform: translateX(-570px);
 	transition: all .3s;
 	position: fixed;
 	.menu{
@@ -436,7 +436,7 @@ a{
 	
 	/*首頁輪播*/
 	.flexslider{
-		/* width:90%; */ 
+		width:100%; 
 		margin: 1rem 0;
 		border: 0px solid #fff;
 		height: 400px;
@@ -472,27 +472,33 @@ a{
 		margin: 0 auto ;
 		display: flex;
 		.mid-big{
-			max-width: 400px;
+			max-width: 40%;
 			@include hover-img-enlarge;
 		}
-		.mid-small-1{
+.flex_4{
+		width: 60%;
+		.mid-small-1 {
 			justify-content: space-between;
-			max-width: 265px;
-			max-height: 150px;
+			max-height: 190px;
 			margin-left: 20px;
 			margin-bottom: 20px;
 			overflow: hidden;
 			@include hover-img-enlarge;
 		}
-		.mid-small-2{
+
+		.mid-small-2 {
 			justify-content: space-between;
-			max-width: 265px;
-			max-height: 150px;
+			max-height: 190px;
 			margin-left: 20px;
 			margin-bottom: 20px;
 			overflow: hidden;
 			@include hover-img-enlarge;
-		}	
+		}
+
+
+}
+
+		
 		.blog-page-con{
 			margin: 1em 0 8em 0;
 			h2{
@@ -909,8 +915,10 @@ a{
 .content-wrap .middle .product-list-con .product-list ul li a:hover{
 	opacity: .8;
 }
+
+
 .footer-wrap{
-	max-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #e9e9e9; 
 	.footer-grid{	
@@ -1023,18 +1031,23 @@ a{
 					max-height: 400px;
 				}
 			}
-			.mid-small-1{
-				max-width: 49%;
-				margin: 7px 1% 7px 0;
-				display: inline-block;
-				float: left;
+			.flex_4{
+				width: 100%;
+				.mid-small-1 {
+					max-width: 49%;
+					margin: 7px 1% 7px 0;
+					display: inline-block;
+					float: left;
+				}
+
+				.mid-small-2 {
+					max-width: 49%;
+					margin: 7px 0 7px 1%;
+					display: inline-block;
+					float: left;
+				}
 			}
-			.mid-small-2{
-				max-width: 49%;
-				margin: 7px 0 7px 1%;
-				display: inline-block;
-				float: left;
-			}
+			
 			.notice-page-con{
 				.sidebar{
 					display: none;
