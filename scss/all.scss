@@ -219,7 +219,7 @@ a{
 	}
 	.navbar{
 		margin: 0 auto;
-		padding-top: 36px;
+		padding-top: 50px;
 		.logo{
 			display: inline-block;
 			margin: 2.5rem 5%;  
@@ -1348,3 +1348,6 @@ a{
 	
 }
 
+.svg-inline--fa.fa-lg {
+	vertical-align: -.3em;
+}

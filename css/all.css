@@ -152,7 +152,7 @@ a {
             color: #fff; }
   .main .navbar {
     margin: 0 auto;
-    padding-top: 36px; }
+    padding-top: 50px; }
     .main .navbar .logo {
       display: inline-block;
       margin: 2.5rem 5%;
@@ -1172,3 +1172,6 @@ a {
     margin-bottom: 1em; }
   .content-wrap .flexslider-page {
     height: auto; } }
+
+.svg-inline--fa.fa-lg {
+  vertical-align: -.3em; }
