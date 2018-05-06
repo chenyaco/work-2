@@ -1101,7 +1101,8 @@ a {
     .content-wrap .middle .about-page-con .store .map {
       width: 100%; }
     .content-wrap .middle .product-item-con .product-wrap .product-img {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
     .content-wrap .middle .product-item-con .product-wrap .info {
       width: 100%; }
     .content-wrap .middle .product-item-con .product-wrap .big-img img {
