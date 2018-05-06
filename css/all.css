@@ -1051,6 +1051,8 @@ a {
           padding: 0 8px 0 5px; }
 
 @media (max-width: 960px) {
+  .main .nav ul li {
+    margin: 0 5px; }
   .main .navbar .logo {
     margin: 1% auto;
     display: block;

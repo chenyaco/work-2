@@ -1094,6 +1094,13 @@ a{
 
 	@media(max-width:960px){
 	.main{
+		.nav {
+			ul {
+				li {
+					margin: 0 5px;
+				}
+			}
+		}
 		.navbar{
 			.logo{
 				margin: 1% auto;
